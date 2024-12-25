@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjain Tourism</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 80vh;
+            background: url('https://images.unsplash.com/photo-1658730557753-caf6bbc4a0bc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dWpqYWlufGVufDB8fDB8fHww') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* History Section */
+        .history {
+            padding: 50px 20px;
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Slider Sections */
+        .slider-container {
+            overflow: hidden;
+            padding: 50px 0;
+            background: #f5f5f5;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .card {
+            height: 400px;
+            min-width: 300px;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 50px 20px;
+            background: #333;
+            color: white;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ff5252;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Ujjain</h1>
+            <p>Discover the spiritual capital of India</p>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="history">
+        <h2>History of Ujjain</h2>
+        <p>Ujjain, one of the most ancient cities of India, is located on the eastern bank of the Kshipra River. Known as Avantika in ancient times, it was one of the primary cities where students went to study during the Mauryan empire.</p>
+    </section>
+
+    <!-- Places to Visit Section -->
+    <section class="slider-container">
+        <h2>Famous Places to Visit</h2>
+        <div class="slider" id="places-slider">
+            <div class="card">
+                <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
+                <h3>Mahakaleshwar Temple</h3>
+                <p>One of the twelve Jyotirlingas in India</p>
+            </div>
+
+            <div class="slider" id="places-slider">
+                <div class="card">
+                    <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
+                    <h3>Mahakaleshwar Temple</h3>
+                    <p>One of the twelve Jyotirlingas in India</p>
+                </div>
+
+                <div class="slider" id="places-slider">
+                    <div class="card">
+                        <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
+                        <h3>Mahakaleshwar Temple</h3>
+                        <p>One of the twelve Jyotirlingas in India</p>
+                    </div>
+
+                    <div class="slider" id="places-slider">
+                        <div class="card">
+                            <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
+                            <h3>Mahakaleshwar Temple</h3>
+                            <p>One of the twelve Jyotirlingas in India</p>
+                        </div>
+
+                        <div class="slider" id="places-slider">
+                            <div class="card">
+                                <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
+                                <h3>Mahakaleshwar Temple</h3>
+                                <p>One of the twelve Jyotirlingas in India</p>
+                            </div>
+
+                            <div class="slider" id="places-slider">
+                                <div class="card">
+                                    <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
+                                    <h3>Mahakaleshwar Temple</h3>
+                                    <p>One of the twelve Jyotirlingas in India</p>
+                                </div>
+            <!-- Add 4 more place cards -->
+        </div>
+    </section>
+
+    <!-- Hotels Section -->
+    <section class="slider-container">
+        <h2>Where to Stay</h2>
+        <div class="slider" id="hotels-slider">
+            <div class="card">
+                <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
+                <h3>Luxury Hotel</h3>
+                <p>5-star accommodation with modern amenities</p>
+            </div>
+
+            <div class="slider" id="hotels-slider">
+                <div class="card">
+                    <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
+                    <h3>Luxury Hotel</h3>
+                    <p>5-star accommodation with modern amenities</p>
+                </div>
+
+                <div class="slider" id="hotels-slider">
+                    <div class="card">
+                        <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
+                        <h3>Luxury Hotel</h3>
+                        <p>5-star accommodation with modern amenities</p>
+                    </div>
+
+                    <div class="slider" id="hotels-slider">
+                        <div class="card">
+                            <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
+                            <h3>Luxury Hotel</h3>
+                            <p>5-star accommodation with modern amenities</p>
+                        </div>
+                        <div class="slider" id="hotels-slider">
+                            <div class="card">
+                                <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
+                                <h3>Luxury Hotel</h3>
+                                <p>5-star accommodation with modern amenities</p>
+                            </div>
+
+                            
+            <!-- Add 4 more hotel cards -->
+        </div>
+    </section>
+
+    <!-- Local Cuisine Section -->
+    <section class="slider-container">
+        <h2>Local Cuisine</h2>
+        <div class="slider" id="food-slider">
+            <div class="card">
+                <img src="./assests/card ayodha.jpg" alt="Local Dish">
+                <h3>Poha Jalebi</h3>
+                <p>Famous breakfast combination of Ujjain</p>
+            </div>
+
+            <div class="card">
+                <img src="./assests/card ayodha.jpg" alt="Local Dish">
+                <h3>Poha Jalebi</h3>
+                <p>Famous breakfast combination of Ujjain</p>
+            </div>
+
+            <div class="card">
+                <img src="./assests/card ayodha.jpg" alt="Local Dish">
+                <h3>Poha Jalebi</h3>
+                <p>Famous breakfast combination of Ujjain</p>
+            </div>
+
+            <div class="card">
+                <img src="./assests/card ayodha.jpg" alt="Local Dish">
+                <h3>Poha Jalebi</h3>
+                <p>Famous breakfast combination of Ujjain</p>
+            </div>
+
+            <div class="card">
+                <img src="./assests/card ayodha.jpg" alt="Local Dish">
+                <h3>Poha Jalebi</h3>
+                <p>Famous breakfast combination of Ujjain</p>
+            </div>
+
+            
+            <!-- Add 4 more food cards -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Travel With Us</h2>
+        <p>Add Ujjain to your travel bucket list and experience the magic of this ancient city</p>
+        <button class="btn" onclick="addToBucketList()">Add to Bucket List</button>
+    </section>
+
+    <script>
+        // Sliding functionality
+        function slideCards(sliderId, direction) {
+            const slider = document.getElementById(sliderId);
+            const cardWidth = 320; // card width + gap
+            let position = 0;
+
+            setInterval(() => {
+                position += direction * cardWidth;
+                if (Math.abs(position) >= cardWidth * 2) position = 0;
+                slider.style.transform = `translateX(${position}px)`;
+            }, 3000);
+        }
+
+        // Initialize sliders
+        slideCards('places-slider', -1);  // Slide left
+        slideCards('hotels-slider', 1);   // Slide right
+        slideCards('food-slider', -1);    // Slide left
+
+        function addToBucketList() {
+            alert('Ujjain added to your bucket list!');
+            // Add actual functionality here
+        }
+    </script>
+</body>
+</html>
