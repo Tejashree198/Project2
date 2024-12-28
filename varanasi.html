@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ujjain Tourism</title>
+    <title>Varansi Tourism</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         * {
@@ -14,18 +14,20 @@
 
         body {
             font-family: 'Times New Roman', Times, serif;
+            background: #FFFDEC;
         }
 
         /* Hero Section */
         .hero {
             height: 80vh;
-            background: url('https://vdavns.com/storage/upload/tourist_images/CuP6eXCkhwckGI5A1EgnYeZ5Lcx6UfMVYgzfdjB2.jpg') no-repeat center center/cover;
+            background: url('https://t3.ftcdn.net/jpg/10/47/99/00/360_F_1047990011_doB0Ziharcbi1Ikf0FObdniuVdFQuE09.jpg') no-repeat center center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             text-align: center;
             position: relative;
+            font-size: 1.2rem;
         }
 
         .hero::before {
@@ -49,15 +51,26 @@
             text-align: center;
             max-width: 1200px;
             margin: 0 auto;
+            background: #D8C4B6;
+            border-radius: 1.5rem;
+            font-style: italic;
+            font-weight: 600;
         }
 
         /* Slider Sections */
         .slider-container {
             overflow: hidden;
             padding: 50px 0;
-            background: #f5f5f5;
+            background: #213555;
+        }
+        .slider-container h2{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            color: aliceblue;
         }
 
+        
         .slider {
             display: flex;
             transition: transform 0.5s ease;
@@ -68,7 +81,7 @@
         .card {
             height: 400px;
             min-width: 300px;
-            background: white;
+            background: #D8C4B6;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -85,14 +98,14 @@
         .contact {
             text-align: center;
             padding: 50px 20px;
-            background: #333;
+            background: #3E5879;
             color: white;
         }
 
         .btn {
             display: inline-block;
             padding: 12px 24px;
-            background: #ff6b6b;
+            background: #F5EFE7;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -103,7 +116,7 @@
         }
 
         .btn:hover {
-            background: #ff5252;
+            background: #213555;
         }
 
         section {
@@ -120,14 +133,15 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Welcome to Varanasi</h1>
-            <p>Discover the spiritual capital of India</p>
+            <p>Also known as  <strong>Kashi</strong>  is one of the oldest living cities in the world.</p>
         </div>
     </section>
 
     <!-- History Section -->
     <section class="history">
         <h2>History of Varanasi</h2>
-        <p>Varansi, one of the most ancient cities of India, is located on the eastern bank of the Kshipra River. Known as Avantika in ancient times, it was one of the primary cities where students went to study during the Mauryan empire.</p>
+        <p>Abode of Lord Shiva and Parvati, the origins of Varanasi are yet unknown. Ganges in Varanasi is believed to have the power to wash away the sins of mortals. Hindus believe that one who is graced to die on the land of Varanasi would attain salvation and freedom from the cycle of birth and re-birth.
+        </p>
     </section>
 
     <!-- Places to Visit Section -->
@@ -137,7 +151,7 @@
             <div class="card">
                 <img src="./assests/gangaarti_varanasi.jpg" alt="Mahakaleshwar Temple">
                 <h3>Ganga Arti</h3>
-                <p>The Ganga Aarti at Varanasi is a mesmerizing ritual every evening at Dashashwamedh Ghat, among other locations along the river. This ceremonial worship of the Ganges involves priests using fire as an offering in the form of multi-tiered oil lamps, accompanied by rhythmic chants and ringing bells.</p>
+                <p>The Ganga Aarti at Varanasi is a mesmerizing ritual every evening at Dashashwamedh Ghat, among other locations along the river. This ceremonial worship of the Ganges involves priests offering  multi-tiered oil lamps, accompanied by rhythmic chants bells.</p>
             </div>
 
             <div class="slider" id="places-slider">
@@ -150,29 +164,29 @@
                 <div class="slider" id="places-slider">
                     <div class="card">
                         <img src="./assests/kashivishvanath_varanasi.jpg" alt="Mahakaleshwar Temple">
-                        <h3>Mahakaleshwar Temple</h3>
-                        <p>One of the twelve Jyotirlingas in India</p>
+                        <h3>Shri kashivishvanath  Temple</h3>
+                        <p>One of the twelve Jyotirlingas in India The Shri Kashi Vishwanath Temple is a beacon of faith and spirituality in Varanasi, dedicated to Lord Shiva. Housing one of the twelve Jyotirlingas attracts millions of devotees year-round, seeking blessings and spiritual fulfilment. </p>
                     </div>
 
                     <div class="slider" id="places-slider">
                         <div class="card">
                             <img src="./assests/dhamakstupa_varanasi.jpg" alt="Mahakaleshwar Temple">
-                            <h3>Mahakaleshwar Temple</h3>
-                            <p>One of the twelve Jyotirlingas in India</p>
+                            <h3>DhameK Stupa</h3>
+                            <p>The Dhamek Stupa, located in Sarnath, is a significant monument marking the spot where Lord Buddha delivered his first sermon to his five disciples after enlightenment.</p>
                         </div>
 
                         <div class="slider" id="places-slider">
                             <div class="card">
                                 <img src="./assests/assi-ghat-varanasi.jpeg" alt="Mahakaleshwar Temple">
-                                <h3>Mahakaleshwar Temple</h3>
-                                <p>One of the twelve Jyotirlingas in India</p>
+                                <h3>Assi ghat</h3>
+                                <p>Assi Ghat, where the Assi River meets the Ganges, is a vibrant cultural hub and one of Varanasi's most popular ghats. It is the starting point for pilgrimages and is famous for its morning and evening rituals</p>
                             </div>
 
                             <div class="slider" id="places-slider">
                                 <div class="card">
                                     <img src="./assests/sarnath_varanasi.jpg" alt="Mahakaleshwar Temple">
-                                    <h3>Mahakaleshwar Temple</h3>
-                                    <p>One of the twelve Jyotirlingas in India</p>
+                                    <h3>Sarnath Temple</h3>
+                                    <p>Sarnath is where Lord Buddha delivered his first sermon after enlightenment, marking Buddhism's foundation. This tranquil site hosts the Dhamek Stupa, ancient monasteries</p>
                                 </div>
             <!-- Add 4 more place cards -->
         </div>
@@ -183,36 +197,36 @@
         <h2>Where to Stay</h2>
         <div class="slider" id="hotels-slider">
             <div class="card">
-                <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                <h3>Luxury Hotel</h3>
+                <img src="./assests/stay1varanasi.jpg" alt="Hotel">
+                <h3>Taj Nadesar palace</h3>
                 <p>5-star accommodation with modern amenities</p>
             </div>
 
             <div class="slider" id="hotels-slider">
                 <div class="card">
-                    <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                    <h3>Luxury Hotel</h3>
-                    <p>5-star accommodation with modern amenities</p>
+                    <img src="./assests/stay2varansi.jpg" alt="Hotel">
+                    <h3>Sugar Star inn</h3>
+                    <p>3-star accommodation with modern amenities</p>
                 </div>
 
                 <div class="slider" id="hotels-slider">
                     <div class="card">
-                        <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                        <h3>Luxury Hotel</h3>
+                        <img src="./assests/stay3varasnsi.jpg" alt="Hotel">
+                        <h3>Taj Ganges Varansi</h3>
                         <p>5-star accommodation with modern amenities</p>
                     </div>
 
                     <div class="slider" id="hotels-slider">
                         <div class="card">
-                            <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                            <h3>Luxury Hotel</h3>
-                            <p>5-star accommodation with modern amenities</p>
+                            <img src="./assests/stay4varasni.jpg" alt="Hotel">
+                            <h3>Rivatas</h3>
+                            <p>4-star accommodation with modern amenities</p>
                         </div>
                         <div class="slider" id="hotels-slider">
                             <div class="card">
-                                <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                                <h3>Luxury Hotel</h3>
-                                <p>5-star accommodation with modern amenities</p>
+                                <img src="./assests/stay5varasni.jpg" alt="Hotel">
+                                <h3>The Amayaas</h3>
+                                <p>4-star accommodation with modern amenities</p>
                             </div>
 
                             
@@ -225,33 +239,33 @@
         <h2>Local Cuisine</h2>
         <div class="slider" id="food-slider">
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/banarasi-paan_varansi.jpg" alt="Local Dish">
+                <h3>Banarsi Paan</h3>
+                <p>“khai ke paan banaras wala, khul jaaye band akal ka taala”. Say Banaras and the first thing that comes to mind is Banarasi paan, As per locals, your meal is incomplete if you do not have a paan at the end of having the best Local Food Varanasi.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/laal-peda_varasnijpg.jpg" alt="Local Dish">
+                <h3>Laal Peda</h3>
+                <p>This milk dish isn’t new to us as we also prepare a similar dish in my home state including our best local food in Varanasi.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/Iitti-chokha_varasni.jpg" alt="Local Dish">
+                <h3>Litti Chokha</h3>
+                <p> litti chokha the best street Food in Varanasi, is a tasty snack that you can enjoy at different street food joints and eateries around the city. This famous Banaras food looks very similar to the dal bati of Rajasthan Anand.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/malaiyyo_varasni.jpg" alt="Local Dish">
+                <h3>Malaiyo</h3>
+                <p>A delicacy in Varanasi, malaiyyo is a melt-in-the-mouth sweet dish which is available only in winter and among best local food in Varanasi. It is made of milk foam and the preparation process is quite special.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/launglata1_varasni.jpg" alt="Local Dish">
+                <h3>Launglata</h3>
+                <p>FLaunglata is a sweet dish that the locals mostly love to eat during Holi Celebrations. However, it is available in the sweet shops and street food stalls, as the best local food in Varanasi all year.</p>
             </div>
 
             
@@ -262,7 +276,7 @@
     <!-- Contact Section -->
     <section class="contact">
         <h2>Travel With Us</h2>
-        <p>Add Ujjain to your travel bucket list and experience the magic of this ancient city</p>
+        <p>Add Varanasi to your travel bucket list and experience the magic of this ancient city</p>
         <button class="btn" onclick="addToBucketList()">Add to Bucket List</button>
     </section>
 

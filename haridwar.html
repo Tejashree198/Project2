@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ujjain Tourism</title>
+    <title>Haridwar Tourism</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         * {
@@ -13,19 +13,21 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Times New Roman', Times, serif;
+            background: #FFFDEC;
         }
 
         /* Hero Section */
         .hero {
             height: 80vh;
-            background: url('https://images.unsplash.com/photo-1658730557753-caf6bbc4a0bc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dWpqYWlufGVufDB8fDB8fHww') no-repeat center center/cover;
+            background: url('https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRHcY0FhaVvBJgmd6jmVFmSBEPk-8h_WNBd2DWiE44siYK9y91i0Lm0FnIfrt-a4YutzwWrSb7wgAEhI8ndttRU3MWW8YWb84-qrFBsQA') no-repeat center center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             text-align: center;
             position: relative;
+            font-size: 1.2rem;
         }
 
         .hero::before {
@@ -49,15 +51,26 @@
             text-align: center;
             max-width: 1200px;
             margin: 0 auto;
+            background: #D8C4B6;
+            border-radius: 1.5rem;
+            font-style: italic;
+            font-weight: 600;
         }
 
         /* Slider Sections */
         .slider-container {
             overflow: hidden;
             padding: 50px 0;
-            background: #f5f5f5;
+            background: #213555;
+        }
+        .slider-container h2{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            color: aliceblue;
         }
 
+        
         .slider {
             display: flex;
             transition: transform 0.5s ease;
@@ -68,7 +81,7 @@
         .card {
             height: 400px;
             min-width: 300px;
-            background: white;
+            background: #D8C4B6;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -85,14 +98,14 @@
         .contact {
             text-align: center;
             padding: 50px 20px;
-            background: #333;
+            background: #3E5879;
             color: white;
         }
 
         .btn {
             display: inline-block;
             padding: 12px 24px;
-            background: #ff6b6b;
+            background: #F5EFE7;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -103,7 +116,7 @@
         }
 
         .btn:hover {
-            background: #ff5252;
+            background: #213555;
         }
 
         section {
@@ -119,15 +132,15 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Welcome to Ujjain</h1>
-            <p>Discover the spiritual capital of India</p>
+            <h1>Welcome to Haridwar</h1>
+            <p>Haridwar is one of the four holy Indian cities that host the Kumbh Mela</p>
         </div>
     </section>
 
     <!-- History Section -->
     <section class="history">
-        <h2>History of Ujjain</h2>
-        <p>Ujjain, one of the most ancient cities of India, is located on the eastern bank of the Kshipra River. Known as Avantika in ancient times, it was one of the primary cities where students went to study during the Mauryan empire.</p>
+        <h2>History of Haridwar</h2>
+        <p>One of the holiest pilgrimages in India, Haridwar, or the ‘gateway to gods’, is located where Ganga, the sacredest of all Indian rivers, enters the Indo-Gangetic plains. Located at the foothills of the Himalayas, Haridwar is a city of temples and ashrams and its pious ambience envelops everyone. Haridwar is one of the four holy Indian cities that host the Kumbh Mela, a pious gathering of millions of Hindu devotees every 12 years.</p>
     </section>
 
     <!-- Places to Visit Section -->
@@ -135,46 +148,42 @@
         <h2>Famous Places to Visit</h2>
         <div class="slider" id="places-slider">
             <div class="card">
-                <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                <h3>Mahakaleshwar Temple</h3>
-                <p>One of the twelve Jyotirlingas in India</p>
+                <img src="./assests/haridwarbg.jpg" alt="Mahakaleshwar Temple">
+                <h3>Ganga Arti </h3>
+                <p>Evening ritual by the river with spiritual chanting and flower offerings. Crowded but serene, featuring local shops and the chance for a holy dip.
+                </p>
             </div>
 
             <div class="slider" id="places-slider">
                 <div class="card">
-                    <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                    <h3>Mahakaleshwar Temple</h3>
-                    <p>One of the twelve Jyotirlingas in India</p>
+                    <img src="./assests/Mansa-Devi-Temple_haridwar.jpg" alt="Mahakaleshwar Temple">
+                    <h3>Mansa-Devi Temple</h3>
+                    <p>The Mansa Devi Temple is a famous temple in Haridwar in Uttarakhand that is dedicated to the goddess Mansa Devi, who is considered to be a form of Shakti and is believed to have emerged from Lord Shiva's mind. It is one of the 'Panch Tirths' or the five pilgrimages in Haridwar</p>
                 </div>
 
                 <div class="slider" id="places-slider">
                     <div class="card">
-                        <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                        <h3>Mahakaleshwar Temple</h3>
-                        <p>One of the twelve Jyotirlingas in India</p>
+                        <img src="./assests/chandi-davi-haridwar.jpg" alt="Mahakaleshwar Temple">
+                        <h3>Chandi Devi Temple</h3>
+                        <p>The Chandi Devi Temple of Haridwar is a charming temple dedicated to the Chanda Devi Goddess, perched on the Neel Parvat of the Shivalik Hills. The Chandi Devi Mandir, also known as Neel Parvat Teerth, is one of the five pilgrimages of Haridwar </p>
                     </div>
 
                     <div class="slider" id="places-slider">
                         <div class="card">
-                            <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                            <h3>Mahakaleshwar Temple</h3>
-                            <p>One of the twelve Jyotirlingas in India</p>
+                            <img src="./assests/Har_Ki_Pauri_Haridwar_.jpg" alt="Mahakaleshwar Temple">
+                            <h3>Har_Ki_Pauri</h3>
+                            <p>Regarded as one of the most sacred Ghats in Haridwar and India, Har Ki Pauri is a revered landmark and is visited by devotees and visitors in large numbers seeking the blessings of the Holy Ganga by offering their prayers. A dip in the river Ganges here is believed to wash away one's sins.</p>
                         </div>
 
                         <div class="slider" id="places-slider">
                             <div class="card">
-                                <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                                <h3>Mahakaleshwar Temple</h3>
-                                <p>One of the twelve Jyotirlingas in India</p>
+                                <img src="./assests/rajaji-national-park-haridwar.jpg" alt="Mahakaleshwar Temple">
+                                <h3>rajaji-national-park</h3>
+                                <p>Rajaji National Park, located near Haridwar, is one of the most renowned wildlife sanctuaries in Uttarakhand, covering a vast area of over 820 square kilometers.</p>
                             </div>
 
-                            <div class="slider" id="places-slider">
-                                <div class="card">
-                                    <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                                    <h3>Mahakaleshwar Temple</h3>
-                                    <p>One of the twelve Jyotirlingas in India</p>
-                                </div>
-            <!-- Add 4 more place cards -->
+                            
+           
         </div>
     </section>
 
@@ -183,35 +192,35 @@
         <h2>Where to Stay</h2>
         <div class="slider" id="hotels-slider">
             <div class="card">
-                <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                <h3>Luxury Hotel</h3>
+                <img src="./assests/h1_haridwar.jpg" alt="Hotel">
+                <h3>Pilibhit House,HARIDWAR Hotel</h3>
                 <p>5-star accommodation with modern amenities</p>
             </div>
 
             <div class="slider" id="hotels-slider">
                 <div class="card">
-                    <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                    <h3>Luxury Hotel</h3>
+                    <img src="./assests/h2_haridwar.jpg" alt="Hotel">
+                    <h3>Hotel Ganges Blossom</h3>
                     <p>5-star accommodation with modern amenities</p>
                 </div>
 
                 <div class="slider" id="hotels-slider">
                     <div class="card">
-                        <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                        <h3>Luxury Hotel</h3>
+                        <img src="./assests/h4_haridwar.jpg" alt="Hotel">
+                        <h3>Arjun -A boutique</h3>
                         <p>5-star accommodation with modern amenities</p>
                     </div>
 
                     <div class="slider" id="hotels-slider">
                         <div class="card">
-                            <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                            <h3>Luxury Hotel</h3>
+                            <img src="./assests/h5_haridwar.jpg" alt="Hotel">
+                            <h3>Amrit Bhavan</h3>
                             <p>5-star accommodation with modern amenities</p>
                         </div>
                         <div class="slider" id="hotels-slider">
                             <div class="card">
-                                <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                                <h3>Luxury Hotel</h3>
+                                <img src="./assests/h3_haridwar.jpg" alt="Hotel">
+                                <h3>Tirath view Central hotel</h3>
                                 <p>5-star accommodation with modern amenities</p>
                             </div>
 
@@ -225,44 +234,44 @@
         <h2>Local Cuisine</h2>
         <div class="slider" id="food-slider">
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/chhole-bhature_haridwar.webp" alt="Local Dish">
+                <h3>Chole Bhature</h3>
+                <p>In Haridwar, food options are endless, but the best ones that can actually titillate your taste buds are few. A favorite delicacy of almost everyone in North India, Chhole Bhature are a must-have in this city.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/kulfi_haridwar.webp" alt="Local Dish">
+                <h3>Kulfi</h3>
+                <p>Just like the sweets and milk, the streets of Haridwar are also famous for selling scrumptious kulfis in a variety of flavors that will truly leave you craving for more. Malai, pista, kesar, rose, elaichi, and mango are some of the top flavors</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/kachori_haridwar.webp" alt="Local Dish">
+                <h3>Kachori</h3>
+                <p>ust like Delhi, kachori has been a famous street food in Haridwar as well. Served along with with sabzi and chutney, it can be enjoyed as a quick snack at any time of the day.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/aloo-puri.hharidwarwebp.webp" alt="Local Dish">
+                <h3>Alo puri</h3>
+                <p>Famous across North India, Aloo Puri is undoubtedly the best street food in Haridwar. It is not only the signature cuisine of the city, but also an all time favorite be it for lunch or dinner. </p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/jalebiharidwar.webp" alt="Local Dish">
+                <h3> Jalebi</h3>
+                <p>Needless to say this city is a paradise for sweet lovers and sweets like Jalebi, Rasmalai, & Rabri are a part of the must-have Haridwar special food.</p>
             </div>
 
             
-            <!-- Add 4 more food cards -->
+        
         </div>
     </section>
 
     <!-- Contact Section -->
     <section class="contact">
         <h2>Travel With Us</h2>
-        <p>Add Ujjain to your travel bucket list and experience the magic of this ancient city</p>
+        <p>Add Haridwar to your travel bucket list and experience the magic of this ancient city</p>
         <button class="btn" onclick="addToBucketList()">Add to Bucket List</button>
     </section>
 

@@ -14,18 +14,20 @@
 
         body {
             font-family: 'Times New Roman', Times, serif;
+            background: #FFFDEC;
         }
 
         /* Hero Section */
         .hero {
             height: 80vh;
-            background: url('https://images.unsplash.com/photo-1658730557753-caf6bbc4a0bc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dWpqYWlufGVufDB8fDB8fHww') no-repeat center center/cover;
+            background: url('https://t3.ftcdn.net/jpg/10/47/99/00/360_F_1047990011_doB0Ziharcbi1Ikf0FObdniuVdFQuE09.jpg') no-repeat center center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             text-align: center;
             position: relative;
+            font-size: 1.2rem;
         }
 
         .hero::before {
@@ -45,23 +47,30 @@
 
         /* History Section */
         .history {
-            background: salmon;
-            border-radius: 1.5rem;
             padding: 50px 20px;
             text-align: center;
             max-width: 1200px;
             margin: 0 auto;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 1.5rem;
+            background: #D8C4B6;
+            border-radius: 1.5rem;
+            font-style: italic;
+            font-weight: 600;
         }
 
         /* Slider Sections */
         .slider-container {
             overflow: hidden;
             padding: 50px 0;
-            background: plum;
+            background: #213555;
+        }
+        .slider-container h2{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            color: aliceblue;
         }
 
+        
         .slider {
             display: flex;
             transition: transform 0.5s ease;
@@ -72,23 +81,10 @@
         .card {
             height: 400px;
             min-width: 300px;
-            background: grey;
+            background: #D8C4B6;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .slider-container h2{
-            text-align: center;
-            font-size: 3rem;
-            font-weight: 600;
-            color: aliceblue;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        .card h3{
-            font-family: 'Times New Roman', Times, serif;
-        }
-        .card p{
-            font-family: 'Times New Roman', Times, serif;
         }
 
         .card img {
@@ -102,14 +98,14 @@
         .contact {
             text-align: center;
             padding: 50px 20px;
-            background: #333;
+            background: #3E5879;
             color: white;
         }
 
         .btn {
             display: inline-block;
             padding: 12px 24px;
-            background: #ff6b6b;
+            background: #F5EFE7;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -117,11 +113,10 @@
             border: none;
             cursor: pointer;
             transition: background 0.3s ease;
-            font-family: 'Times New Roman', Times, serif;
         }
 
         .btn:hover {
-            background: #ff5252;
+            background: #213555;
         }
 
         section {

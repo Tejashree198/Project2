@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ujjain Tourism</title>
+    <title>Dwarka Tourism</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         * {
@@ -13,19 +13,21 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Times New Roman', Times, serif;
+            background: #FFFDEC;
         }
 
         /* Hero Section */
         .hero {
             height: 80vh;
-            background: url('https://images.unsplash.com/photo-1658730557753-caf6bbc4a0bc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dWpqYWlufGVufDB8fDB8fHww') no-repeat center center/cover;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE9_DJJ1pZvwOg-J3ZtkjmnRu6hWO2Yqe2WQ&s') no-repeat center center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             text-align: center;
             position: relative;
+            font-size: 1.2rem;
         }
 
         .hero::before {
@@ -49,15 +51,26 @@
             text-align: center;
             max-width: 1200px;
             margin: 0 auto;
+            background: #D8C4B6;
+            border-radius: 1.5rem;
+            font-style: italic;
+            font-weight: 600;
         }
 
         /* Slider Sections */
         .slider-container {
             overflow: hidden;
             padding: 50px 0;
-            background: #f5f5f5;
+            background: #213555;
+        }
+        .slider-container h2{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            color: aliceblue;
         }
 
+        
         .slider {
             display: flex;
             transition: transform 0.5s ease;
@@ -68,7 +81,7 @@
         .card {
             height: 400px;
             min-width: 300px;
-            background: white;
+            background: #D8C4B6;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -85,14 +98,14 @@
         .contact {
             text-align: center;
             padding: 50px 20px;
-            background: #333;
+            background: #3E5879;
             color: white;
         }
 
         .btn {
             display: inline-block;
             padding: 12px 24px;
-            background: #ff6b6b;
+            background: #F5EFE7;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -103,7 +116,7 @@
         }
 
         .btn:hover {
-            background: #ff5252;
+            background: #213555;
         }
 
         section {
@@ -119,15 +132,15 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Welcome to Ujjain</h1>
-            <p>Discover the spiritual capital of India</p>
+            <h1>Welcome to Dwarka</h1>
+            <p>Dwarka is believed to have been the first capital of Gujarat</p>
         </div>
     </section>
 
     <!-- History Section -->
     <section class="history">
-        <h2>History of Ujjain</h2>
-        <p>Ujjain, one of the most ancient cities of India, is located on the eastern bank of the Kshipra River. Known as Avantika in ancient times, it was one of the primary cities where students went to study during the Mauryan empire.</p>
+        <h2>History of Dwarka</h2>
+        <p>The city’s name literally means the “gateway to heaven” in Sanskrit, as Dwar means “gate” and ka references “Brahma”.Dwarka has also been referred to throughout its history as “Mokshapuri”, “Dwarkamati”, and “Dwarkavati”. It is mentioned in the ancient prehistoric epic period of the Mahabharata. According to legend, Krishna settled here after he defeated and killed his uncle Kansa at Mathura. </p>
     </section>
 
     <!-- Places to Visit Section -->
@@ -135,45 +148,40 @@
         <h2>Famous Places to Visit</h2>
         <div class="slider" id="places-slider">
             <div class="card">
-                <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                <h3>Mahakaleshwar Temple</h3>
-                <p>One of the twelve Jyotirlingas in India</p>
+                <img src="./assests/Dwardish temple_dwarka.jpg" alt="Mahakaleshwar Temple">
+                <h3>Dwarkadhish Temple</h3>
+                <p>Having a history of over 2500 years, this Chalukya style of architecture is a temple dedicated to Lord Krishna.</p>
             </div>
 
             <div class="slider" id="places-slider">
                 <div class="card">
-                    <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                    <h3>Mahakaleshwar Temple</h3>
-                    <p>One of the twelve Jyotirlingas in India</p>
+                    <img src="./assests/Ngeshwar temple_dwarka.jpg" alt="Mahakaleshwar Temple">
+                    <h3>Nageshwar Temple</h3>
+                    <p>One of the 12 famous self-existent temples, Nageshwara Jyotirlinga Temple too houses a curious myth about its origin. The giant, beautiful and artistic statue of Lord Shiva</p>
                 </div>
 
                 <div class="slider" id="places-slider">
                     <div class="card">
-                        <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                        <h3>Mahakaleshwar Temple</h3>
-                        <p>One of the twelve Jyotirlingas in India</p>
+                        <img src="./assests/rukminitemple_dwarka.jpg" alt="Mahakaleshwar Temple">
+                        <h3>Rukmini Devi Temple</h3>
+                        <p>A small structure is an important shrine dedicated to Krishna's beloved consort, Rukmani Devi. Not as majestically gigantic , this shrine is an architectural masterpiece in itself.</p>
                     </div>
 
                     <div class="slider" id="places-slider">
                         <div class="card">
-                            <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                            <h3>Mahakaleshwar Temple</h3>
-                            <p>One of the twelve Jyotirlingas in India</p>
+                            <img src="./assests/lighthouse_dwarka.jpg" alt="Mahakaleshwar Temple">
+                            <h3>Dwarka Lighthouse</h3>
+                            <p>The tower, 43m in height was inaugurated on 15th July 1962. Tourists can enjoy the panoramic view of the sunset.</p>
                         </div>
 
                         <div class="slider" id="places-slider">
                             <div class="card">
-                                <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                                <h3>Mahakaleshwar Temple</h3>
-                                <p>One of the twelve Jyotirlingas in India</p>
+                                <img src="./assests/Dwarkabeach.jpg" alt="Mahakaleshwar Temple">
+                                <h3> Dwarka Beach</h3>
+                                <p>Along the Arabian Sea coast, Dwarka Beach is a good place to relax in the evenings. Popular among both the locals and tourists, Dwarka Beach is located quite close to the main temples in town.</p>
                             </div>
 
-                            <div class="slider" id="places-slider">
-                                <div class="card">
-                                    <img src="./assests/bg3(mathura).jpg" alt="Mahakaleshwar Temple">
-                                    <h3>Mahakaleshwar Temple</h3>
-                                    <p>One of the twelve Jyotirlingas in India</p>
-                                </div>
+                            
             <!-- Add 4 more place cards -->
         </div>
     </section>
@@ -183,35 +191,40 @@
         <h2>Where to Stay</h2>
         <div class="slider" id="hotels-slider">
             <div class="card">
-                <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                <h3>Luxury Hotel</h3>
+                <img src="./assests/hotel1dwarka.webp" alt="Hotel">
+                <h3>Ginger DwarkaOpens in new window
+                </h3>
                 <p>5-star accommodation with modern amenities</p>
             </div>
 
             <div class="slider" id="hotels-slider">
                 <div class="card">
-                    <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                    <h3>Luxury Hotel</h3>
+                    <img src="./assests/hotel2dwarka.webp "alt="Hotel">
+                    <h3>The Fern Sattva Resort, DwarkaOpens in new window
+                    </h3>
                     <p>5-star accommodation with modern amenities</p>
                 </div>
 
                 <div class="slider" id="hotels-slider">
                     <div class="card">
-                        <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                        <h3>Luxury Hotel</h3>
+                        <img src="./assests/hotel3dwarka.webp" alt="Hotel">
+                        <h3>Dwarkadhish Lords Eco InnOpens in new window
+                        </h3>
                         <p>5-star accommodation with modern amenities</p>
                     </div>
 
                     <div class="slider" id="hotels-slider">
                         <div class="card">
-                            <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                            <h3>Luxury Hotel</h3>
+                            <img src="./assests/dwarkahotel3.webp" alt="Hotel">
+                            <h3>The Sky Comfort Beach Hotel, DwarkaOpens in new window
+                            </h3>
                             <p>5-star accommodation with modern amenities</p>
                         </div>
                         <div class="slider" id="hotels-slider">
                             <div class="card">
-                                <img src="./assests/bg6(dwarka).jpg" alt="Hotel">
-                                <h3>Luxury Hotel</h3>
+                                <img src="./assests/hotel5dwarka.webp" alt="Hotel">
+                                <h3>
+                                    Hawthorn Suites by Wyndham Dwarka</h3>
                                 <p>5-star accommodation with modern amenities</p>
                             </div>
 
@@ -225,33 +238,35 @@
         <h2>Local Cuisine</h2>
         <div class="slider" id="food-slider">
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/dokhla_dwarka.png" alt="Local Dish">
+                <h3>Khaman Dhokhla</h3>
+                <p>Let's kick off our culinary adventure with the iconic Khaman Dhokla. These fluffy, steamed cakes are made from fermented chickpea flour batter, giving them a tangy flavor that is both refreshing and satisfying.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/jalebifafda_dwarka.png" alt="Local Dish">
+                <h3>Jalebi Fafda</h3>
+                <p>No trip to Dwarka is complete without indulging in the classic combination of Jalebi and Fafda. Crisp, golden Fafdas paired with syrupy, spiral-shaped Jalebis create a symphony of textures and tastes. Dip the Fafda in green chutney or  sauce for an explosion of flavors that will leave your taste buds tingling.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/undhiya_dwarka.png" alt="Local Dish">
+                <h3>Undhiyo</h3>
+                <p>A hearty and wholesome Gujarati specialty, Undhiyu is a mixed vegetable dish simmered in a fragrant blend of spices and fresh herbs. this flavorful concoction showcases the diverse array of vegetables found in Gujarat's rich agricultural landscape. Served with puris or rotis.</p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/MethinaGota.jpeg" alt="Local Dish">
+                <h3>MethinaGota</h3>
+                <p>Thin, crispy, and incredibly versatile, methinagota is a popular snack that is enjoyed by locals and visitors alike. Made from whole wheat flour and seasoned with spices like cumin and ajwai, its a guilt-free indulgence that is perfect for munching on the go. Pair it with a  yogurt or a pickle.
+
+                </p>
             </div>
 
             <div class="card">
-                <img src="./assests/card ayodha.jpg" alt="Local Dish">
-                <h3>Poha Jalebi</h3>
-                <p>Famous breakfast combination of Ujjain</p>
+                <img src="./assests/Fansi nu Shak.jpeg" alt="Local Dish">
+                <h3>Fansi nu Shak</h3>
+                <p>Famous breakfast combination of dwarka gujraat is Fansi nu Shak. One cannot leave gujarat without having it .The dish is super tasty crunchy and mouth watering </p>
             </div>
 
             
@@ -262,7 +277,7 @@
     <!-- Contact Section -->
     <section class="contact">
         <h2>Travel With Us</h2>
-        <p>Add Ujjain to your travel bucket list and experience the magic of this ancient city</p>
+        <p>Add Dwarka to your travel bucket list and experience the magic of this ancient city</p>
         <button class="btn" onclick="addToBucketList()">Add to Bucket List</button>
     </section>
 
