@@ -13,7 +13,8 @@
     width: 100%; 
     display: flex;
     align-items: center;
-    /* background-color: #EB8317; */
+    background-color: #2C3E50; 
+
     height: 50px;
   }
   
@@ -21,7 +22,7 @@
     position: relative;
     left: 30rem;
     padding-left: 40px;
-    color: rgb(131, 70, 23);
+    color: white;
     font-size: 22px;
     text-decoration: none; 
   }
@@ -132,6 +133,14 @@
     letter-spacing: 0.5px;
     margin-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .maincard .title{
+    text-align: center;
+    font-size: 2rem;
+    color: #34495E;
+    padding-top: 1rem;
+    font-weight: 600;
+    
   }
   
   .card-description {
