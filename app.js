@@ -5,3 +5,20 @@ document.querySelectorAll('.card-text').forEach((text) => {
     }
   });
   
+
+  let bucketCounter = localStorage.getItem('bucketCounter') ? parseInt(localStorage.getItem('bucketCounter')) : 0;
+
+  function updateBucketCounter() {
+    const bucketIcon = document.querySelector('.bucket-icon');
+    const bucketCounterSpan = bucketIcon.querySelector('.bucket-counter');
+    bucketCounterSpan.textContent = bucketCounter;
+    localStorage.setItem('bucketCounter', bucketCounter);
+  }
+
+  function addItemToBucket() {
+    bucketCounter++;
+    updateBucketCounter();
+    // Add item to bucket logic here
+  }
+
+  updateBucketCounter();
