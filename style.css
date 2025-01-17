@@ -11,7 +11,7 @@
     background: #F4F6FF;
   }
  .navbar {
-    width: 100%; 
+    width: 97.4%; 
     display: flex;
     align-items: center;
     background-color: #2C3E50; 
@@ -125,40 +125,7 @@
   .maincard{
     background: #FDF6F0;
   }
-
-  /* New animation for h4 tag */
-/* @keyframes bounceIn {
-  0% {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-/* Apply the new animation to the h4 tag */
-/*.h4 {
-  animation: bounceIn 2s ease-in-out;
-  text-align: center;
-  text-decoration: none;
   
-} */
- .title .h4 {
-  color: rgb(144, 226, 43);
-  margin-bottom: 20px;
-  font-size: 2.5rem;
-  text-decoration: none;
-}
-
-/* Apply the new animation to the h4 tag in the maincard */
-/* .maincard .title h4 {
-  animation: bounceIn 2s ease-in-out;
-  text-align: center;
-  text-decoration: none;
-} */
-
   .card-container {
     display: flex;
     flex-wrap: wrap;
