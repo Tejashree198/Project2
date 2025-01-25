@@ -135,6 +135,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 300px;
     position: relative;
+    text-decoration: none; /* Removes underline */
   }
   
   .card:hover {
@@ -155,7 +156,10 @@ body {
     letter-spacing: 0.5px;
     margin-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none; /* Removes underline */
+    
   }
+
   .maincard .title{
     text-align: center;
     font-size: 2rem;
@@ -179,6 +183,7 @@ body {
     text-overflow: ellipsis;
     margin-bottom: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
     }
   .read-more {
     display: inline-block;
